@@ -15,7 +15,7 @@
 - Praneeth Reddy
 - Kamal Reddy
 
-[Team-06 44563-01](https://github.com/AzharAlali/mvc-app/blob/master/Capture%20%20group.PNG)
+![Team-06 44563-01](https://github.com/AzharAlali/mvc-app/blob/master/Capture%20%20group.PNG)
 
 ## Dev Tools
 
