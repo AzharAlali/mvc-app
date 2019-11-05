@@ -1,13 +1,21 @@
-# mvc-app
+# node-express-mvc
 
 > Node.js and the Express web framework make it easy to build well-designed web apps using MVC
 
-[![Build Status](https://travis-ci.org/denisecase/node-express-mvc.svg?branch=master)](https://travis-ci.org/denisecase/node-express-mvc)
 
 ## Links
 
-- [Demo](https://denisecase.github.io/node-express-mvc/)
-- [Source](https://github.com/denisecase/node-express-mvc)
+- [Source](https://github.com/AzharAlali/mvc-app)
+- [Demo(Build in progress)](https://github.com/AzharAlali/mvc-app)
+
+## Team Members
+
+- Azhar Alali 
+- Jeevan Reddy
+- Praneeth Reddy
+- Kamal Reddy
+
+![Team-06 44563-02](/docs/Team-slide.jpg)
 
 ## Dev Tools
 
@@ -64,9 +72,12 @@ Start app with nodemon: `nodemon app.js`.
 - [JavaScript Standard Style Validator](https://standardjs.com/demo.html)
 - [ESLint](https://eslint.org/)
 - [TravisCI](https://travis-ci.org/)
+- [Dr. Denise Case](https://github.com/denisecase)
 
-## See Also
-
-- [More App Examples](https://profcase.github.io/web-apps-list/)
+## Contributors
+- Kamal Reddy (Students module)
+- Jeevan Reddy (Courses module)
+- Praneeth Reddy (Sections module)
+- Azhar Alali (Instructors module)
 
 
