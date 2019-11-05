@@ -47,24 +47,6 @@ Open PowerShell here as admin and run: `npm install`.
 
 Start app with nodemon: `nodemon app.js`.
 
-## Open a Client
-
-1. Open a web browser at: <http://127.0.0.1:3004/> or <http://localhost:3004/>.
-
-## Terms
-
-- .gitignore
-- npm install
-- node_modules
-- package-lock.json
-- nodemon
-- routing
-- data seeder
-- MVC
-- controller
-- model
-- views
-- json (JavaScript Object Notation) - double-quote strings, no comments
 
 ## Resources
 
