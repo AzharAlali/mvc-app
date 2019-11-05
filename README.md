@@ -15,7 +15,7 @@
 - Praneeth Reddy
 - Kamal Reddy
 
-![Team-06 44563-01](capture group.PNG)
+![Team-06 44563-01](Capture group.PNG)
 
 ## Dev Tools
 
