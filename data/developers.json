@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
   {
     "_id": 99,
@@ -27,29 +26,3 @@
 
 
 ]
-=======
-[
-  {
-    "_id": 99,
-    "email": "dcase@nwmissouri.edu",
-    "given": "Denise",
-    "family": "Case",
-    "city": "Maryville",
-    "state": "MO",
-    "zip": 64468,
-    "country": "USA",
-    "URL": "https://www.nwmissouri.edu/csis/directory/case.htm"
-  },
-  {
-    "_id": 100,
-    "email": "michael@nwmissouri.edu",
-    "given": "Michael",
-    "family": "Case",
-    "city": "Rogers",
-    "state": "MO",
-    "zip": 64468,
-    "country": "USA",
-    "URL": "https://www.nwmissouri.edu/csis/directory/rogers.htm"
-  }
-]
->>>>>>> de14af11fda021d956b28d10a58ece2abe73a529
