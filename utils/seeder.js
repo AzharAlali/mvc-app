@@ -51,4 +51,32 @@ module.exports = (app) => {
   console.log(`${app.locals.courses.query.length} courses seeded`)
   console.log(`${app.locals.instructors.query.length} instructors seeded`)
   console.log('END Data Seeder. Sample data read and verified.')
+  const courseData = require('../data/courses.json') // read in data file
+  db.courses = new Datastore() // new object property
+  db.courses.loadDatabase() // call the loadDatabase method
+
+  // insert the sample data into our datastore
+  db.courses.insert(courseData)
+
+  // initialize app.locals (these objects are available to the controllers)
+  app.locals.courses = db.courses.find(courseData)
+  console.log(`${app.locals.developers.query.length} courses seeded`)
+
+  console.log('END Data Seeder. Sample data read and verified.')
+  
+
+  const instructorData = require('../data/instructors.json') // read in data file
+  db.instructors = new Datastore() // new object property
+  db.instructors.loadDatabase() // call the loadDatabase method
+
+  // insert the sample data into our datastore
+  db.instructors.insert(instructorData)
+
+  // initialize app.locals (these objects are available to the controllers)
+  app.locals.instructors = db.instructors.find(instructorData)
+  console.log(`${app.locals.developers.query.length} developers seeded`)
+
+  console.log('END Data Seeder. Sample data read and verified.')
+
+
 }
