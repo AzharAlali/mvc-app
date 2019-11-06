@@ -1,0 +1,49 @@
+[
+ 
+    {
+      "_id": 1000,
+      "schoolNumber": "44",
+      "courseNumber": "563",
+      "Name": "Developing Web Apps and Services",
+      "inSpring": false,
+      "inSummer": false,
+      "inFall": true
+    }, 
+    {
+        "_id": 1001,
+      "schoolNumber": "44",
+      "courseNumber": "542",
+      "Name": "object oriented programming langauge",
+      "inSpring": false,
+      "inSummer": false,
+      "inFall": true
+      }, 
+      {
+        "_id": 1002,
+        "schoolNumber": "44",
+        "courseNumber": "642",
+        "Name": "Advanced topics in csis",
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": false
+      }, 
+      {
+        "_id": 1003,
+        "schoolNumber": "44",
+        "courseNumber": "782",
+        "Name": "Graduate Directed Project",
+        "inSpring": false,
+        "inSummer": true,
+        "inFall": false
+      }, 
+      {
+        "_id": 1004,
+      "schoolNumber": "44",
+      "courseNumber": "692",
+      "Name": "mobile computing(ios)",
+      "inSpring": true,
+      "inSummer": false,
+      "inFall": false
+      } 
+      
+  ]
