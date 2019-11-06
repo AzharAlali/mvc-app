@@ -1,0 +1,62 @@
+[
+    {
+      "_id": 1,
+      "Given": "Kamal Reddy",
+      "Family": "Donthireddy",
+      "Email": "S537153@nwmissouri.edu",
+      "GPA": 3.6,
+      "Github": "https://github.com/Kamal4195",
+      "Website": "https://www.linkedin.com/in/kamal41-a-297a4323/",
+      "SectionID": 4
+    },
+    {
+        "_id": 2,
+        "Given": "Chandu",
+        "Family": "Gampa",
+        "Email": "S536771@nwmissouri.edu",
+        "GPA": 3.4,
+        "Github": "https://github.com/chandu56",
+        "Website": "https://www.linkedin.com/in/chandu-643a07112/",
+        "SectionID": 1
+    },
+    {
+        "_id": 3,
+        "Given": "Bhavya",
+        "Family": "Gorrepati",
+        "Email": "S536778@nwmissouri.edu",
+        "GPA": 3.4,
+        "Github": "https://github.com/Bhavya-123",
+        "Website": "https://www.linkedin.com/in/Bhavya-a-297a43a1/",
+        "SectionID": 2
+    },
+    {
+        "_id": 4,
+        "Given": "MahaLakshmi",
+        "Family": "Kongari",
+        "Email": "S536979@nwmissouri.edu",
+        "GPA": 3.4,
+        "Github": "https://github.com/MahaLakshmiKongari",
+        "Website": "https://www.linkedin.com/in/mahalakshmi-kongari-7aaa04a7/",
+        "SectionID": 4
+    },
+    {
+        "_id": 5,
+        "Given": "Dheeraj",
+        "Family": "edupuganti",
+        "Email": "S536712@nwmissouri.edu",
+        "GPA": 3.4,
+        "Github": "https://github.com/Dheeraj14",
+        "Website": "https://www.linkedin.com/in/dheeraj-042732159/",
+        "SectionID": 4
+    },
+    {
+        "_id": 6,
+        "Given": "Prudhvi",
+        "Family": "Dommaraju",
+        "Email": "S537236@nwmissouri.edu",
+        "GPA": 3.9,
+        "Github": "https://github.com/prudhvi15",
+        "Website": "https://www.linkedin.com/in/prudhvi-4927321591/",
+        "SectionID": 4
+    }
+]
