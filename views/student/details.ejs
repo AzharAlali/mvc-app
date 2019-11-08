@@ -6,15 +6,16 @@
 
       <h2>Details</h2>
       <br>
-      <br> ID: <%= student._id %>
+      <br> ID: <%=  student._id %>
       <br> Given: <%=student.Given%>
       <br> Family: <%=student.Family%>
       <br> Email: <%=student.Email%>
-      <br> GPA:<%=student. GPA %>
+      <br> GPA: <%=student.GPA %>
       <br> Github: <%=student.Github %>
-      <br> Website: <%=student. Website %>
+      <br> Website: <%=student.Website %>
       <br> SectionID: <%=student.SectionID %>
-          <hr>
+      <br> Hobby: <%=student.Hobby%>
+      <hr>
 
       <form method="get" action="/student">
         <input type="submit" value="Return to list" class="btn btn-caution" />
