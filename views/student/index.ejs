@@ -18,13 +18,13 @@
         <div class="panel-heading"></div>
         <div class="text-muted pull-right"></div>
         <div class="panel-body">
-          <br> ID: <%=student._id %>
-          <br> Email: <%=student.email %>
-          <br> Given: <%=student.given %>
-          <br> Family: <%=student.family %>
+          <br> ID: <%= student._id %>
+          <br> Given: <%=student.Given%>
+          <br> Family: <%=student.Family%>
+          <br> Email: <%=student.Email%>
+          <br> GPA:<%=student. GPA %>
           <br> Github: <%=student.Github %>
-          <br> Website: <%=student.Website %>
-          <br> GPA: <%=student.GPA %>
+          <br> Website: <%=student. Website %>
           <br> SectionID: <%=student.SectionID %>
           <hr>
           <a href="/student/delete/<%= student._id  %>" class="btn btn-danger"> Delete </a>
