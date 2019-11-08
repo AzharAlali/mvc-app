@@ -1,59 +1,62 @@
 /**
-*  Developer model
-*  Describes the characteristics of each attribute in a developer resource.
+*  Course model
+*  Describes the characteristics of each attribute in a Course resource.
 *
-* @author jeevan mure <s536980@nwmissouri.edu>
+* @author jeevan mure <jeevanreddymure@gmail.com>
 * @requires mongoose
 *
 */
 const mongoose = require('mongoose')
 
-const instructorSchema = new mongoose.Schema({
+const CourseSchema = new mongoose.Schema({
 
   _id: {
     type: Number,
     required: true
   },
-  schoolNumber: {
+  schoolNumber : {
     type: String,
-    minlength: 5,
-    maxlength: 10,
+    minlength: 1,
+    maxlength: 2,
     required: true,
-    unique: true,
-    default: '44'
-   },
-   courseNumber: {
+    unique: false,
+    default:44
+  },
+  courseNumber : {
     type: String,
-    minlength: 5,
-    maxlength: 10,
+    minlength: 1,
+    maxlength: 3,
     required: true,
-    unique: true,
-    default: '563'  
-   },
-   Name: {
-   type: String,
-   minlength: 10,
-   maxlength: 100,
-   required: true,
-   unique: true,
-   default: 'Developing Web Apps and Services'
-   },
-   inSpring: {
-   type: boolean,
-   required: true,
-   default: false
-   },
-   inSummer: {
-   type: boolean,
-   required: true,
-   default: false
-   },
-   inFall: {
-   type: boolean,
-   required: true,
-   default: false
-   }
-
- } )
-module.exports = mongoose.model('course', courseSchema)
-s
+    default: 563
+  },
+  Name : {
+    type: String,
+    minlength: 4,
+    maxlength: 100,
+    required: true,
+    default: 'Developing Web Apps and Services'
+  },
+  inSpring : {
+    type: Boolean,
+    minlength: 1,
+    maxlength: 3,
+    required: true,
+    
+  },
+  inSummer : {
+    type: Boolean,
+    minlength: 1,
+    maxlength: 3,
+    required: true,
+    
+  },
+  inFall : {
+    type: Boolean,
+    minlength: 1,
+    maxlength: 3,
+    required: true,
+   
+  }
+  
+})
+module.exports = mongoose.model('Course', CourseSchema)

@@ -2,7 +2,7 @@
 *  Developer model
 *  Describes the characteristics of each attribute in a developer resource.
 *
-* @author kamal Reddy <denisecase@gmail.com>
+* @author kamal Reddy <kamalreddy4195@gmail.com>
 * @requires mongoose
 *
 */
