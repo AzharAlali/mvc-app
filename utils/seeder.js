@@ -15,8 +15,6 @@ module.exports = (app) => {
   const sectiondb={}
   const instructordb={}
 
-
-
   
   db.developers = new Datastore() // new object property
 
