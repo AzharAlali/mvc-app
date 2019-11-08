@@ -1,5 +1,13 @@
+/**
+*  Section model
+*  Describes the characteristics of each attribute in a section resource.
+*
+* @author praneeth reddy kalluri <s537398@nwmissouri.edu>
+* @requires mongoose
+*
+*/
 const mongoose = require('mongoose')
-const DeveloperSchema = new mongoose.Schema({
+const SectionSchema = new mongoose.Schema({
 
   _id: {
     type: Number,
@@ -46,4 +54,4 @@ const DeveloperSchema = new mongoose.Schema({
     required: true
   }
 })
-module.exports = mongoose.model('Developer', DeveloperSchema)
+module.exports = mongoose.model('Section', SectionSchema)
