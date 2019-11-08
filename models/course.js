@@ -14,49 +14,51 @@ const CourseSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  schoolNumber : {
+ schoolNumber: {
     type: String,
-    minlength: 1,
+    minlength: 2,
     maxlength: 2,
     required: true,
-    unique: false,
-    default:44
+    unique: true,
+    
   },
-  courseNumber : {
-    type: String,
-    minlength: 1,
+  courseNumber: {
+    type: String ,
+    minlength: 3,
     maxlength: 3,
     required: true,
-    default: 563
+    unique: true,
   },
-  Name : {
+  Name: {
     type: String,
-    minlength: 4,
+    minlength: 3,
     maxlength: 100,
     required: true,
-    default: 'Developing Web Apps and Services'
   },
-  inSpring : {
+  inSpring: {
     type: Boolean,
-    minlength: 1,
-    maxlength: 3,
-    required: true,
-    
+    minlength: 3,
+    maxlength: 100,
+    required: true
   },
-  inSummer : {
+  inSummer: {
     type: Boolean,
-    minlength: 1,
-    maxlength: 3,
-    required: true,
-    
+    minlength: 2,
+    maxlength: 100,
+    required: true
   },
-  inFall : {
+  inFall: {
     type: Boolean,
-    minlength: 1,
-    maxlength: 3,
+    minlength: 5,
+    maxlength: 12,
+    required: true
+  },
+  Major: {
+    type: String,
+    minlength: 5,
+    maxlength: 100,
     required: true,
-   
-  }
-  
+  },
 })
 module.exports = mongoose.model('Course', CourseSchema)
+// the model Course is for the courses collection in the database.
