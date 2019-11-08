@@ -4,17 +4,17 @@
   <div class=row>
     <div class="col col-md-12">
 
-      <h2>Create a new developer </h2>
+      <h2>Create a new student </h2>
       <br>
       <% 
       maxID=0; 
-      for (var i=0; i < developers.length; i++) {
-        if(developers[i]._id > maxID) { 
-          maxID=developers[i]._id;  
+      for (var i=0; i < students.length; i++) {
+        if(students[i]._id > maxID) { 
+          maxID=students[i]._id;  
         }
       }
-      const developer = {}
-      developer._id = maxID+1
+      const student = {}
+      student._id = maxID+1
      
       %>
       <div class="content">
