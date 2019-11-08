@@ -3,35 +3,39 @@
   <div class="col col-xs-12">
 
     <div class="form-group">
-      <label for="SectionNumber">SectionNumber</label>
-      <input type="text" class="form-control" id="SectionNumber" name="SectionNumber" value="<%= section.SectionNumber %>" required>
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" name="email" value="<%= section.email %>" required>
     </div>
 
     <div class="form-group">
-      <label for="Days">Days</label>
-      <input type="text" class="form-control" id="Days" name="Days" value="<%= section.Days %>" required>
+      <label for="given">Given name</label>
+      <input type="text" class="form-control" id="given" name="given" value="<%= section.given %>">
     </div>
 
     <div class="form-group">
-      <label for="StartTime">StartTime</label>
-      <input type="number" class="form-control" id="StartTime" name="StartTime" value="<%= section.StartTime %>" required>
+      <label for="family">Family name</label>
+      <input type="text" class="form-control" id="family" name="family" value="<%= section.family %>">
     </div>
 
     <div class="form-group">
-      <label for="RoomNumber">RoomNumber</label>
-      <input type="text" class="form-control" id="RoomNumber" name="RoomNumber" value="<%= section.RoomNumber %>" required>
+      <label for="city">City </label>
+      <input type="text" class="form-control" id="city" name="city" value="<%= section.city %>">
     </div>
 
     <div class="form-group">
-      <label for="InstructorID">InstructorID</label>
-      <input type="number" class="form-control" id="InstructorID" name="InstructorID" value="<%= section.InstructorID %>" required>
+      <label for="state">State </label>
+      <input type="text" class="form-control" id="state" name="state" value="<%= section.state %>">
     </div>
 
     <div class="form-group">
-      <label for="CourseID">CourseID</label>
-      <input type="number" class="form-control" id="CourseID" name="CourseID" value="<%= section.CourseID %>" required>
+      <label for="zip">zip </label>
+      <input type="zipcode" class="form-control" id="zip" name="zip" value="<%= section.zip %>">
     </div>
-    
+
+    <div class="form-group">
+      <label for="country">Country </label>
+      <input type="text" class="form-control" id="country" name="country" value="<%= section.country %>">
+    </div>
 
   </div>
 </div>
@@ -46,5 +50,6 @@
       e.preventDefault();
     }
   }
+
 // END CLIENT SIDE CODE  (close the script tag)
 </script>

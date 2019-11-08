@@ -1,8 +1,8 @@
 /**
-*  Section controller
-*  Handles requests related to section resources.
+*  Developer controller
+*  Handles requests related to developer resources.
 *
-* @author Praneeth Reddy Kalluri <s537398@nwmissouri.edu>
+* @author Praneeth Reddy <s537398@nwmissouri.edu>
 *
 */
 const express = require('express')
@@ -65,7 +65,7 @@ api.get('/details/:id', (req, res) => {
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('section/details', {
-    developer: item
+    section: item
   })
 })
 
@@ -76,7 +76,7 @@ api.get('/edit/:id', (req, res) => {
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring + id) }
   res.render('section/edit', {
-    developer: item
+    section: item
   })
 })
 
@@ -89,13 +89,12 @@ api.post('/save', (req, res) => {
   const item = new Model()
   console.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id)
-  item.email = req.body.email
-  item.given = req.body.given
-  item.family = req.body.family
-  item.city = req.body.city
-  item.state = req.body.state
-  item.zip = req.body.zip
-  item.country = req.body.country
+  item.SectionNumber = req.body.SectionNumber
+  item.Days = req.body.Days
+  item.StartTime = req.body.StartTime
+  item.RoomNumber = req.body.RoomNumber
+  item.InstructiorID = req.body.InstructorID
+  item.CourseID = req.body.CourseID
   res.send(`THIS FUNCTION WILL SAVE A NEW section ${JSON.stringify(item)}`)
 })
 
