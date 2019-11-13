@@ -32,7 +32,7 @@ const SectionSchema = new mongoose.Schema({
     minlength: 0,
     maxlength: 30,
     required: true,
-    default: 'StartTime'
+    default: '0800'
   },
   RoomNumber: {
     type: String,

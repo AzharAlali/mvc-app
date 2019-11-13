@@ -7,7 +7,7 @@
 */
 const express = require('express')
 const api = express.Router()
-// const Model = require('../models/instructor.js')
+const Model = require('../models/instructor.js')
 const find = require('lodash.find')
 const notfoundstring = 'Could not find instructor with id='
 
