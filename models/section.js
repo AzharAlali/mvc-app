@@ -1,57 +1,58 @@
 /**
-*  Section model
-*  Describes the characteristics of each attribute in a section resource.
+*  Developer model
+*  Describes the characteristics of each attribute in a developer resource.
 *
-* @author praneeth reddy kalluri <s537398@nwmissouri.edu>
+* @author Praneeth Reddy <praneethreddy@gmail.com>
 * @requires mongoose
 *
 */
 const mongoose = require('mongoose')
+
 const SectionSchema = new mongoose.Schema({
 
   _id: {
     type: Number,
     required: true
   },
-  SectionNumber: {
+  sectionNumber: {
     type: String,
-    minlength: 0,
+    minlength: 2,
     maxlength: 2,
     required: true,
-    default: 'Section Number'
+    unique: true
   },
-  Days: {
+  days: {
     type: String,
     minlength: 1,
-    maxlength: 7,
+    maxlength: 5,
     required: true,
-    default: 'Days'
+    default: 'MWF',
+    unique:true
   },
-  StartTime: {
+  startTime: {
     type: Number,
-    minlength: 0,
-    maxlength: 30,
+    minlength: 3,
+    maxlength: 4,
     required: true,
-    default: '0800'
+    default: '1100',
+    unique:true
   },
-  RoomNumber: {
+  roomNumber: {
     type: String,
-    minlength: 0,
-    maxlength: 30,
-    required: true
+    minlength: 1,
+    maxlength: 100,
+    required: true,
+    default: 'CH 1200',
+    unique:true
   },
-  InstructorId: {
-    type: String,
-    minlength: 0,
-    maxlength: 30,
-    required: true
-
+  instructorId: {
+    type: Number,
+    required:true
   },
-  CourseId: {
-    type: String,
-    minlength: 0,
-    maxlength: 30,
+  courseId: {
+    type: Number,
     required: true
   }
+
 })
 module.exports = mongoose.model('Section', SectionSchema)

@@ -1,62 +1,102 @@
 [
     {
-      "_id": 1,
-      "Given": "Kamal Reddy",
-      "Family": "Donthireddy",
-      "Email": "S537153@nwmissouri.edu",
-      "GPA": 3.6,
-      "Github": "https://github.com/Kamal4195",
-      "Website": "https://www.linkedin.com/in/kamal41-a-297a4323/",
-      "SectionID": 4
+        "_id": 51,
+        "given": "kamal",
+        "family": "reddy",
+        "email": "kamal@gmail.com",
+        "gpa": 3.9,
+        "github": "github.com/kamal43",
+        "website": "www.kamal.com",
+        "sectionId": 10
     },
     {
-        "_id": 2,
-        "Given": "Chandu",
-        "Family": "Gampa",
-        "Email": "S536771@nwmissouri.edu",
-        "GPA": 3.4,
-        "Github": "https://github.com/chandu56",
-        "Website": "https://www.linkedin.com/in/chandu-643a07112/",
-        "SectionID": 1
+        "_id": 52,
+        "given": "Prudhvi",
+        "family": "domma",
+        "email": "prudhvi@gmail.com",
+        "gpa": 3.6,
+        "github": "github.com/prudhvi",
+        "website": "www.prudhvi.com",
+        "sectionId": 20
     },
     {
-        "_id": 3,
-        "Given": "Bhavya",
-        "Family": "Gorrepati",
-        "Email": "S536778@nwmissouri.edu",
-        "GPA": 3.4,
-        "Github": "https://github.com/Bhavya-123",
-        "Website": "https://www.linkedin.com/in/Bhavya-a-297a43a1/",
-        "SectionID": 2
+        "_id": 53,
+        "given": "Praveen",
+        "family": "Teja",
+        "email": "praveen@gmail.com",
+        "gpa": 3.7,
+        "github": "github.com/praveen",
+        "website": "www.praveen.com",
+        "sectionId": 30
     },
     {
-        "_id": 4,
-        "Given": "MahaLakshmi",
-        "Family": "Kongari",
-        "Email": "S536979@nwmissouri.edu",
-        "GPA": 3.4,
-        "Github": "https://github.com/MahaLakshmiKongari",
-        "Website": "https://www.linkedin.com/in/mahalakshmi-kongari-7aaa04a7/",
-        "SectionID": 4
+        "_id": 54,
+        "given": "Saketh",
+        "family": "Kanth",
+        "email": "saketh@gmail.com",
+        "gpa": 3.4,
+        "github": "github.com/saketh",
+        "website": "www.saketh.com",
+        "sectionId": 40
     },
     {
-        "_id": 5,
-        "Given": "Dheeraj",
-        "Family": "edupuganti",
-        "Email": "S536712@nwmissouri.edu",
-        "GPA": 3.4,
-        "Github": "https://github.com/Dheeraj14",
-        "Website": "https://www.linkedin.com/in/dheeraj-042732159/",
-        "SectionID": 4
+        "_id": 55,
+        "given": "Krish",
+        "family": "Sai",
+        "email": "krish@gmail.com",
+        "gpa": 4,
+        "github": "github.com/krish",
+        "website": "www.krish.com",
+        "sectionId": 40
     },
     {
-        "_id": 6,
-        "Given": "kamal ",
-        "Family": "reddy",
-        "Email": "S537153@nwmissouri.edu",
-        "GPA": 3.9,
-        "Github": "https://github.com/Kamal4195",
-        "Website": "https://www.linkedin.com/in/kamal-48927321591/",
-        "SectionID": 4
+        "_id": 56,
+        "given": "Yugindhar",
+        "family": "Mamidi",
+        "email": "mamaidi@gmail.com",
+        "gpa": 3.5,
+        "github": "github.com/yugi",
+        "website": "www.yugi.com",
+        "sectionId": 50
+    },
+    {
+        "_id": 57,
+        "given": "pranith",
+        "family": "reddy",
+        "email": "pranithj@gmail.com",
+        "gpa": 3.9,
+        "github": "github.com/pranith",
+        "website": "www.pranith.com",
+        "sectionId": 60
+    },
+    {
+        "_id": 58,
+        "given": "Bharath",
+        "family": "Reddy",
+        "email": "bharath@gmail.com",
+        "gpa": 4,
+        "github": "github.com/bharath",
+        "website": "www.bharath.com",
+        "sectionId": 30
+    },
+    {
+        "_id": 59,
+        "given": "jeevan",
+        "family": "reddy",
+        "email": "jeevan@gmail.com",
+        "gpa": 3.5,
+        "github": "github.com/jeevan",
+        "website": "www.jeevan.com",
+        "sectionId": 70
+    },
+    {
+        "_id": 60,
+        "given": "Deepak",
+        "family": "Mala",
+        "email": "deepak@gmail.com",
+        "gpa": 4,
+        "github": "github.com/deepak",
+        "website": "www.deepak.com",
+        "sectionId": 60
     }
 ]

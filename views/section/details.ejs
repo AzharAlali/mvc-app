@@ -1,24 +1,24 @@
 <br>
 <br>
 <div class="container-fluid">
-  <div class=row>
-    <div class="col col-md-12">
+    <div class=row>
+        <div class="col col-md-12">
 
-      <h2>Details</h2>
-      <br>
-      <br> ID: <%=  section._id %>
-      <br> SectionNumber: <%=section.SectionNumber%>
-      <br> Days: <%=section.Days%>
-      <br> StartTime: <%=section.StartTime%>
-      <br> RoomNumber: <%=section.RoomNumber%>
-      <br> InstructorID: <%=section.InstructorID%>
-      <br> CourseID: <%=section.CourseID%>
-      <hr>
+            <h2>Details</h2>
+            <br>
+            <br> ID: <%=  section._id %>
+            <br> Section Number: <%=section.sectionNumber%>
+            <br> Days: <%=section.days%>
+            <br> Start Time: <%=section.startTime%>
+            <br> Room Number: <%=section.roomNumber %>
+            <br> Instructor Id: <%=section.instructorId %>
+            <br> Course Id: <%=section.courseId %>
+            <hr>
 
-      <form method="get" action="/section">
-        <input type="submit" value="Return to list" class="btn btn-caution" />
-      </form>
+            <form method="get" action="/section">
+                <input type="submit" value="Return to list" class="btn btn-caution" />
+            </form>
 
+        </div>
     </div>
-  </div>
 </div>

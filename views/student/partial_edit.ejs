@@ -1,55 +1,56 @@
 <!-- main - a row holds columns -->
 <div class=row>
-  <div class="col col-xs-12">
+    <div class="col col-xs-12">
+      
+        <div class="form-group">
+        <label for="given">Given</label>
+        <input type="text" class="form-control" id="given" name="given" value="<%= student.given %>">
+      </div>
 
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" class="form-control" id="email" name="email" value="<%= student.email %>" required>
+      <div class="form-group">
+        <label for="family">Family</label>
+        <input type="text" class="form-control" id="family" name="family" value="<%= student.family %>">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" name="email" value="<%= student.email %>">
+      </div>
+
+      <div class="form-group">
+        <label for="gpa">GPA</label>
+        <input type="text" class="form-control" id="gpa" name="gpa" value="<%= student.gpa %>">
+      </div>
+      
+      <div class="form-group">
+        <label for="github">GitHub</label>
+        <input type="text" class="form-control" id="github" name="github" value="<%= student.github %>">
+      </div>
+
+      <div class="form-group">
+        <label for="website">WEBSITE</label>
+        <input type="text" class="form-control" id="website" name="website" value="<%= student.website %>">
+      </div>
+
+      <div class="form-group">
+        <label for="section_id">SECTION ID</label>
+        <input type="text" class="form-control" id="section_id" name="section_id" value="<%= student.sectionId %>">
+      </div>
+
+  
     </div>
-
-    <div class="form-group">
-      <label for="given">Given name</label>
-      <input type="text" class="form-control" id="given" name="given" value="<%= student.given %>">
-    </div>
-
-    <div class="form-group">
-      <label for="family">Family name</label>
-      <input type="text" class="form-control" id="family" name="family" value="<%= student.family %>">
-    </div>
-
-    <div class="form-group">
-      <label for="city">City </label>
-      <input type="text" class="form-control" id="city" name="city" value="<%= student.city %>">
-    </div>
-
-    <div class="form-group">
-      <label for="state">State </label>
-      <input type="text" class="form-control" id="state" name="state" value="<%= student.state %>">
-    </div>
-
-    <div class="form-group">
-      <label for="zip">zip </label>
-      <input type="zipcode" class="form-control" id="zip" name="zip" value="<%= student.zip %>">
-    </div>
-
-    <div class="form-group">
-      <label for="country">Country </label>
-      <input type="text" class="form-control" id="country" name="country" value="<%= student.country %>">
-    </div>
-
   </div>
-</div>
-
-<!-- PUT CLIENT SIDE CODE HERE -->
-<script>
- 
-  // prevent submission when hitting enter key - optional, but user-friendly 
-  document.forms[0].onkeypress = function (e) {
-    var key = e.charCode || e.keyCode || 0;
-    if (key == 13) {
-      e.preventDefault();
+  
+  <!-- PUT CLIENT SIDE CODE HERE -->
+  <script>
+  
+    // prevent submission when hitting enter key - optional, but user-friendly 
+    document.forms[0].onkeypress = function (e) {
+      var key = e.charCode || e.keyCode || 0;
+      if (key == 13) {
+        e.preventDefault();
+      }
     }
-  }
-
-// END CLIENT SIDE CODE  (close the script tag)
-</script>
+  
+    // END CLIENT SIDE CODE  (close the script tag)
+  </script>

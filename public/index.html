@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chat</title>
+
+  <!-- get styles from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- https://mdbootstrap.com/docs/jquery/navigation/navbar/ -->
+  <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+    <a class="navbar-brand" href="#">WebApps</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/course">Course</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/instructor">Instructor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/section">Section</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/student">Student</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">About us</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://github.com/Kamal4195">Kamal Reddy</a>
+            <a class="dropdown-item" href="https://github.com/praneeth323">Praneeth Reddy</a>
+            <a class="dropdown-item" href="https://github.com/jeevanreddymure">Jeevan Reddy</a>
+            <a class="dropdown-item" href="https://github.com/AzharAlali">Azhar Alali</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container-fluid">
+    <div class=row>
+      <div class="col col-md-12">
+        <br />
+        <h1>Web App Developers - Fall 2019</h1>
+        <br />
+        <hr>
+        <h3>During development, test api here.</h3>
+        <br />
+        <br />
+        <br />
+        <div class="row">
+          <div class="col col-md-4">
+            <h4>GET Course JSON by URL</h4>
+            <ol>
+              <li>
+                <a href="http://localhost:3004/course/findall">http://localhost:3004/course/findall</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/course/findone/16">http://localhost:3004/course/findone/16</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/course/findone/10">http://localhost:3004/course/findone/10</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/course/findone/11">http://localhost:3004/course/findone/11</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/course/findone/12">http://localhost:3004/course/findone/12</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/course/findone/13">http://localhost:3004/course/findone/13</a>
+              </li>
+              <!--<li>
+                <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+              </li>
+              -->
+            </ol>
+          </div>
+
+
+          <div class="col col-md-4">
+            <h4>GET Instructors JSON by URL</h4>
+            <ol>
+              <li>
+                <a href="http://localhost:3004/instructor/findall">http://localhost:3004/instructor/findall</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/instructor/findone/110">http://localhost:3004/instructor/findone/110</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/instructor/findone/220">http://localhost:3004/instructor/findone/220</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/instructor/findone/330">http://localhost:3004/instructor/findone/330</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/instructor/findone/440">http://localhost:3004/instructor/findone/440</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/instructor/findone/550">http://localhost:3004/instructor/findone/550</a>
+              </li>
+              <!--<li>
+                <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+              </li>
+              -->
+            </ol>
+          </div>
+
+          <div class="col col-md-4">
+            <h4>GET Section JSON by URL</h4>
+            <ol>
+              <li>
+                <a href="http://localhost:3004/section/findall">http://localhost:3004/section/findall</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/section/findone/1">http://localhost:3004/section/findone/1</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/section/findone/2">http://localhost:3004/section/findone/2</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/section/findone/3">http://localhost:3004/section/findone/3</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/section/findone/4">http://localhost:3004/section/findone/4</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/section/findone/5">http://localhost:3004/section/findone/5</a>
+              </li>
+              <!--<li>
+                <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+              </li>
+              -->
+            </ol>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col col-md-4">
+            <h4>GET Student JSON by URL</h4>
+            <ol>
+              <li>
+                <a href="http://localhost:3004/Student/findall">http://localhost:3004/Student/findall</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/Student/findone/51">http://localhost:3004/Student/findone/51</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/Student/findone/52">http://localhost:3004/Student/findone/52</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/Student/findone/53">http://localhost:3004/Student/findone/53</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/Student/findone/54">http://localhost:3004/Student/findone/54</a>
+              </li>
+              <li>
+                <a href="http://localhost:3004/Student/findone/55">http://localhost:3004/Student/findone/55</a>
+              </li>
+              <!--<li>
+                <a href="http://localhost:3004/newpage">http://localhost:3004/newpage</a>
+              </li>
+              -->
+            </ol>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <hr>
+
+  <footer class="container">
+    <p>&copy;2019 44563-01 Team 06</p>
+    <p class="text-muted"><a href="https://github.com/AzharAlali/mvc-app">Source</a></p>
+  </footer>
+
+  <!-- get from https://mdbootstrap.com/md-bootstrap-cdn/ -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+
+</body>
+
+</html>

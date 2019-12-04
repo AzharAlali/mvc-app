@@ -1,60 +1,65 @@
 [
- 
     {
-      "_id": 1000,
-      "schoolNumber": "44",
-      "courseNumber": "563",
-      "Name": "Developing Web Apps and Services",
-      "inSpring": false,
-      "inSummer": false,
-      "inFall": true
-    }, 
-    {
-        "_id": 1001,
-      "schoolNumber": "44",
-      "courseNumber": "542",
-      "Name": "object oriented programming langauge",
-      "inSpring": false,
-      "inSummer": false,
-      "inFall": true
-      }, 
-      {
-        "_id": 1002,
-        "schoolNumber": "44",
-        "courseNumber": "642",
-        "Name": "Advanced topics in csis",
+        "_id": 10,
+        "schoolNumber": "55",
+        "courseNumber": "63",
+        "name": "Web Apps and Services",
         "inSpring": true,
         "inSummer": false,
         "inFall": false
-      }, 
-      {
-        "_id": 1003,
-        "schoolNumber": "44",
-        "courseNumber": "782",
-        "Name": "Graduate Directed Project",
+    },
+    {
+        "_id": 11,
+        "schoolNumber": "55",
+        "courseNumber": "60",
+        "name": "Database Systems",
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": false
+    },
+    {
+        "_id": 12,
+        "schoolNumber": "55",
+        "courseNumber": "42",
+        "name": "Object Oriented Programming",
+        "inSpring": true,
+        "inSummer": false,
+        "inFall": false
+    },
+    {
+        "_id": 13,
+        "schoolNumber": "55",
+        "courseNumber": "63",
+        "name": "Web Apps and Services",
+        "inSpring": false,
+        "inSummer": false,
+        "inFall": true
+    },
+    {
+        "_id": 14,
+        "schoolNumber": "55",
+        "courseNumber": "60",
+        "name": "Database Systems",
+        "inSpring": false,
+        "inSummer": false,
+        "inFall": true
+    },
+    {
+        "_id": 15,
+        "schoolNumber": "55",
+        "courseNumber": "42",
+        "name": "Object Oriented Programming",
+        "inSpring": false,
+        "inSummer": true,
+        "inFall": true
+    },
+    {
+        "_id": 16,
+        "schoolNumber": "55",
+        "courseNumber": "63",
+        "name": "Web Apps and Services",
         "inSpring": false,
         "inSummer": true,
         "inFall": false
-      }, 
-      {
-        "_id": 1004,
-      "schoolNumber": "44",
-      "courseNumber": "692",
-      "Name": "mobile computing(ios)",
-      "inSpring": true,
-      "inSummer": false,
-      "inFall": false
-      },
-      {
-        "_id":1005,
-        "schoolNumber":"44",
-        "courseNumber":"622",
-        "Name":"mobile computing(android)",
-        "inSpring": true,
-        "inSummer": false,
-        "inFall": false
-
-        
-      } 
-      
-  ]
+    }
+]

@@ -1,55 +1,47 @@
 /**
-*  Developer model
-*  Describes the characteristics of each attribute in a developer resource.
+*  Instructor model
+*  Describes the characteristics of each attribute in a Instructor resource.
 *
-* @author Denise Case <denisecase@gmail.com>
+* @author Azhar Alali<Azhar@nwmissouri.edu>
 * @requires mongoose
 *
 */
 const mongoose = require('mongoose')
 
-const instructorSchema = new mongoose.Schema({
+const InstructorSchema = new mongoose.Schema({
 
-  _id: {
-    type: Number,
-    required: true
-  },
-  given: {
-    type: String,
-    minlength: 3,
-    maxlength: 100,
-    required: false,
-    default: 'Given name'
-  },
-  family: {
-    type: String,
-    minlength: 3,
-    maxlength: 100,
-    required: false,
-    default: 'Family name'
-  },
-  
-  email: {
-    type: String,
-    minlength: 5,
-    maxlength: 100,
-    required: true,
-    unique: true
-  },
-  salary: {
-    type: Number,
-    minlength: 5,
-    maxlength: 100,
-    required: true,
-    default: 0
-  },
-  gitHub: {
-    type: String,
-    minlength: 4,
-    maxlength: 100,
-    required: true,
-    default: 'http://gitHub.com'
-  }
-
+    _id: {
+        type: Number,
+        required: true
+    },
+    given: {
+        type: String,
+        minlength: 3,
+        maxlength: 100,
+        required: false,
+        default: 'Given name'
+      },
+    family: {
+        type: String,
+        minlength: 3,
+        maxlength: 100,
+        required: false,
+        default: 'Family name'
+    },
+    email: {
+        type: String,
+        minlength: 5,
+        maxlength: 100,
+        required: true,
+        unique: true
+    },
+    salary: {
+        type: Number,
+        required: true
+    },
+    github: {
+        type: String,
+        required: true
+    }
 })
-module.exports = mongoose.model('instructor', instructorSchema)
+module.exports = mongoose.model('Instructor', InstructorSchema)
