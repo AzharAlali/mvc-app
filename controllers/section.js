@@ -38,11 +38,13 @@ api.get('/findone/:id', (req, res) => {
 // GET /
 api.get('/', (req, res) => {
   LOG.info(`Handling GET / ${req}`)
-  SectionSchema.find({}, (err, data) => {
-    if (err) { return res.end('Error') }
-    res.locals.section = data
-    res.render('section/index')
-  })
+  getStats(function (result) {
+    SectionSchema.find({}, (err, data) => {
+      if (err) { return res.end('Error') }
+      res.locals.section = data
+      res.render('section/index', { "result": result })
+    })
+  });
 })
 
 // GET create
@@ -164,4 +166,34 @@ api.post('/delete/:id', (req, res) => {
   })
 })
 
+function getStats(cb) {
+  let timeArr = [];
+  SectionSchema.find({}, (err, data) => {
+    if (err) {
+      return res.end('Error finding all')
+    } else {
+      data.map(function (item) {
+        timeArr.push(item.startTime);
+      });
+      let result = {
+        min: timeArr[0],
+        max: timeArr[0],
+        mean: 0
+      };
+
+      timeArr.map(function (time) {
+        if (result.min > time) {
+          result.min = time;
+        }
+        if (result.max < time) {
+          result.max = time;
+        }
+        result.mean += time;
+      });
+      result.mean /= timeArr.length;
+      result.mean = parseInt(result.mean);
+      return cb(result);
+    }
+  });
+}
 module.exports = api
