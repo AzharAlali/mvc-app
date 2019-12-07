@@ -62,7 +62,7 @@ api.get('/delete/:id', (req, res) => {
   InstructorModel.find({ _id: id }, (err, results) => {
     if (err) { return res.end(notfoundstring) }
     LOG.info(`RETURNING VIEW FOR ${JSON.stringify(results)}`)
-    res.locals.customer = results[0]
+    res.locals.instructor = results[0]
     return res.render('instructor/delete')
   })
 })
@@ -86,7 +86,7 @@ api.get('/edit/:id', (req, res) => {
   InstructorModel.find({ _id: id }, (err, results) => {
     if (err) { return res.end(notfoundstring) }
     LOG.info(`RETURNING VIEW FOR${JSON.stringify(results)}`)
-    res.locals.customer = results[0]
+    res.locals.instructor = results[0]
     return res.render('instructor/edit')
   })
 })

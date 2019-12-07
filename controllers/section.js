@@ -139,7 +139,7 @@ api.post('/save/:id', (req, res) => {
         days: req.body.days,
         startTime: req.body.startTime,
         roomNumber: req.body.roomNumber,
-        instructorId: req.body.courseId,
+        instructorId: req.body.instructorId,
         courseId: req.body.courseId
       }
     },

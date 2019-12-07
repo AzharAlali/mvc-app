@@ -103,10 +103,10 @@ api.post('/save', (req, res) => {
   item.given = req.body.given
   item.family = req.body.family
   item.email = req.body.email
-  item.gpa = req.body.gpa
+  item.gpa = parseInt(req.body.gpa)
   item.website = req.body.website
   item.github = req.body.github
-  item.sectionId = req.body.sectionId
+  item.sectionId = parseInt(req.body.sectionId)
   // res.send(`THIS FUNCTION WILL SAVE A NEW student ${JSON.stringify(item)}`)
   item.save((err) => {
     if (err) { return res.end('ERROR: item could not be saved') }
@@ -126,10 +126,10 @@ api.post('/save/:id', (req, res) => {
         given: req.body.given,
         family: req.body.family,
         email: req.body.email,
-        gpa: req.body.gpa,
+        gpa: parseInt(req.body.gpa),
         website: req.body.website,
         github: req.body.github,
-        sectionId: req.body.sectionId
+        sectionId: parseInt(req.body.sectionId)
       }
     },
     (err, item) => {
